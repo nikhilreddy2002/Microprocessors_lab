@@ -1,0 +1,61 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             MyFirst, CODE, READONLY
+    2 00000000                 EXPORT           RESET_HANDLER
+    3 00000000         RESET_HANDLER
+    4 00000000         
+    5 00000000 E3A0100A 
+                       START   MOV              R1, #10
+    6 00000004 E3A02011        MOV              R2, #0x11
+    7 00000008 E1A03081        MOV              R3, R1, LSL#1
+    8 0000000C E0814002        ADD              R4, R1, R2
+    9 00000010 EAFFFFFE 
+                       STOP    B                STOP
+   10 00000014                 END
+Command Line: --debug --xref --apcs=interwork --depend=.\excercise1_1.d -o.\exc
+ercise1_1.o -IC:\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include --predefine="__E
+VAL SETA 1" --list=.\excercise1_1.lst Excercise1_1.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+MyFirst 00000000
+
+Symbol: MyFirst
+   Definitions
+      At line 1 in file Excercise1_1.s
+   Uses
+      None
+Comment: MyFirst unused
+RESET_HANDLER 00000000
+
+Symbol: RESET_HANDLER
+   Definitions
+      At line 3 in file Excercise1_1.s
+   Uses
+      At line 2 in file Excercise1_1.s
+Comment: RESET_HANDLER used once
+START 00000000
+
+Symbol: START
+   Definitions
+      At line 5 in file Excercise1_1.s
+   Uses
+      None
+Comment: START unused
+STOP 00000010
+
+Symbol: STOP
+   Definitions
+      At line 9 in file Excercise1_1.s
+   Uses
+      At line 9 in file Excercise1_1.s
+Comment: STOP used once
+4 symbols
+335 symbols in table

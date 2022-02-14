@@ -1,0 +1,662 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\NITK files\Sem 4\EC210\LAB1\lab_1.uvproj
+Project File Date:  02/08/2022
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(1): warning: A1313W: Missing END directive at end of file
+assembling Excercise1_2.s...
+linking...
+Program Size: Code=16 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 1 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(8): error: A1163E: Unknown opcode R4, , expecting opcode or Macro
+assembling Excercise1_2.s...
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+linking...
+Program Size: Code=36 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_1.s...
+linking...
+Program Size: Code=36 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_2.s...
+linking...
+Program Size: Code=36 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_2.s...
+linking...
+Program Size: Code=36 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=36 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_2.s...
+Excercise1_2.s(9): error: A1108E: Multiply defined symbol 'START'
+Excercise1_2.s(13): error: A1108E: Multiply defined symbol 'STOP'
+assembling Excercise1_1.s...
+".\lab_1.axf" - 2 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_2.s...
+assembling Excercise1_1.s...
+linking...
+Program Size: Code=32 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_2.s...
+linking...
+Program Size: Code=32 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_1.s...
+assembling Excercise1_3.s...
+linking...
+.\lab_1.axf: Error: L6200E: Symbol RESET_HANDLER1_2 multiply defined (by excercise1_3.o and excercise1_2.o).
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+assembling Excercise1_3.s...
+linking...
+.\lab_1.axf: Error: L6200E: Symbol RESET_HANDLER1_2 multiply defined (by excercise1_3.o and excercise1_2.o).
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+assembling Excercise1_3.s...
+linking...
+.\lab_1.axf: Error: L6200E: Symbol RESET_HANDLER1_2 multiply defined (by excercise1_3.o and excercise1_2.o).
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+linking...
+.\lab_1.axf: Error: L6200E: Symbol RESET_HANDLER1_2 multiply defined (by excercise1_3.o and excercise1_2.o).
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+linking...
+.\lab_1.axf: Error: L6200E: Symbol RESET_HANDLER1_2 multiply defined (by excercise1_3.o and excercise1_2.o).
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+linking...
+.\lab_1.axf: Error: L6200E: Symbol RESET_HANDLER1_2 multiply defined (by excercise1_3.o and excercise1_2.o).
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+linking...
+.\lab_1.axf: Error: L6200E: Symbol RESET_HANDLER1_2 multiply defined (by excercise1_3.o and excercise1_2.o).
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+linking...
+.\lab_1.axf: Error: L6200E: Symbol RESET_HANDLER1_2 multiply defined (by excercise1_3.o and excercise1_2.o).
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+linking...
+.\lab_1.axf: Error: L6200E: Symbol RESET_HANDLER1_2 multiply defined (by excercise1_3.o and excercise1_2.o).
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+linking...
+.\lab_1.axf: Error: L6200E: Symbol RESET_HANDLER1_2 multiply defined (by excercise1_3.o and excercise1_2.o).
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+linking...
+.\lab_1.axf: Error: L6200E: Symbol RESET_HANDLER1_2 multiply defined (by excercise1_3.o and excercise1_2.o).
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_3.s...
+linking...
+Program Size: Code=52 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_1.s...
+linking...
+Program Size: Code=48 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(7): error: A1106E: Missing comma
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(7): error: A1106E: Missing comma
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(7): error: A1106E: Missing comma
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(7): error: A1106E: Missing comma
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(7): error: A1106E: Missing comma
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(7): error: A1106E: Missing comma
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(7): error: A1106E: Missing comma
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(7): error: A1106E: Missing comma
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(7): error: A1106E: Missing comma
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(7): error: A1106E: Missing comma
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(7): error: A1106E: Missing comma
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(7): error: A1106E: Missing comma
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(7): error: A1106E: Missing comma
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(7): error: A1106E: Missing comma
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+linking...
+Program Size: Code=48 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_1.s...
+linking...
+Program Size: Code=48 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=48 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=48 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_1.s...
+linking...
+Program Size: Code=48 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_1.s...
+linking...
+Program Size: Code=48 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_1.s...
+linking...
+Program Size: Code=48 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_1.s...
+linking...
+Program Size: Code=56 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_1.s...
+linking...
+Program Size: Code=60 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_1.s...
+linking...
+Program Size: Code=64 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_1.s...
+linking...
+Program Size: Code=64 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(10): error: A1106E: Missing comma
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(10): error: A1106E: Missing comma
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+linking...
+Program Size: Code=64 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_1.s...
+linking...
+Program Size: Code=56 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_1.s...
+linking...
+Program Size: Code=72 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_1.s...
+linking...
+Program Size: Code=72 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(14): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): warning: A1865W: '#' not seen before constant expression
+Excercise1_1.s(16): warning: A1865W: '#' not seen before constant expression
+Excercise1_1.s(15): error: A1516E: Bad symbol 'ROR', not defined or external
+Excercise1_1.s(16): error: A1516E: Bad symbol 'RRX', not defined or external
+".\lab_1.axf" - 2 Errors, 2 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+Excercise1_1.s(16): warning: A1865W: '#' not seen before constant expression
+".\lab_1.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+Excercise1_1.s(16): warning: A1865W: '#' not seen before constant expression
+".\lab_1.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+Excercise1_1.s(16): warning: A1865W: '#' not seen before constant expression
+".\lab_1.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+Excercise1_1.s(16): warning: A1865W: '#' not seen before constant expression
+".\lab_1.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+Excercise1_1.s(16): warning: A1865W: '#' not seen before constant expression
+".\lab_1.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+Excercise1_1.s(16): warning: A1865W: '#' not seen before constant expression
+".\lab_1.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+Excercise1_1.s(16): warning: A1865W: '#' not seen before constant expression
+".\lab_1.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+Excercise1_1.s(16): warning: A1865W: '#' not seen before constant expression
+".\lab_1.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+Excercise1_1.s(16): warning: A1865W: '#' not seen before constant expression
+".\lab_1.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+Excercise1_1.s(16): warning: A1865W: '#' not seen before constant expression
+".\lab_1.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+Excercise1_1.s(16): warning: A1865W: '#' not seen before constant expression
+".\lab_1.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+Excercise1_1.s(16): warning: A1865W: '#' not seen before constant expression
+".\lab_1.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+Excercise1_1.s(16): warning: A1865W: '#' not seen before constant expression
+".\lab_1.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+Excercise1_1.s(16): warning: A1865W: '#' not seen before constant expression
+".\lab_1.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+Excercise1_1.s(16): warning: A1865W: '#' not seen before constant expression
+".\lab_1.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+Excercise1_1.s(16): warning: A1865W: '#' not seen before constant expression
+".\lab_1.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+Excercise1_1.s(16): warning: A1865W: '#' not seen before constant expression
+".\lab_1.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(16): error: A1137E: Unexpected characters at end of line
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(16): error: A1137E: Unexpected characters at end of line
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(16): error: A1137E: Unexpected characters at end of line
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(16): error: A1137E: Unexpected characters at end of line
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(16): error: A1137E: Unexpected characters at end of line
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(16): error: A1137E: Unexpected characters at end of line
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(16): error: A1137E: Unexpected characters at end of line
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(15): error: A1821E: Expected constant or register expression
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+Excercise1_1.s(16): error: A1137E: Unexpected characters at end of line
+".\lab_1.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling Excercise1_1.s...
+linking...
+Program Size: Code=84 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=84 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=84 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=84 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=84 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=84 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_1.s...
+linking...
+Program Size: Code=84 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_1.s...
+linking...
+Program Size: Code=84 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_1.s...
+linking...
+Program Size: Code=84 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=84 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=84 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=84 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=84 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=84 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_1.s...
+linking...
+Program Size: Code=84 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=84 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling Excercise1_1.s...
+assembling Excercise1_3.s...
+linking...
+Program Size: Code=88 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Rebuild target 'Target 1'
+assembling Excercise1_2.s...
+assembling Excercise1_1.s...
+assembling Excercise1_3.s...
+linking...
+Program Size: Code=88 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).
+Rebuild target 'Target 1'
+assembling Excercise1_2.s...
+assembling Excercise1_1.s...
+assembling Excercise1_3.s...
+linking...
+Program Size: Code=88 RO-data=0 RW-data=0 ZI-data=0  
+".\lab_1.axf" - 0 Errors, 0 Warning(s).

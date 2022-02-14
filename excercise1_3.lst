@@ -1,0 +1,69 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             exercise1_3, CODE, READONLY
+    2 00000000                 EXPORT           RESET_HANDLER1_3
+    3 00000000         RESET_HANDLER1_3
+    4 00000000         
+    5 00000000 E3A0123F 
+                       START   MVN              R1, #0xFFFFFFC
+    6 00000004 E3A0200A        MOV              R2, #0x0000000A
+    7 00000008 E1A03082        MOV              R3, R2, LSL #1
+    8 0000000C E1B04082        MOVS             R4, R2, LSL #1
+    9 00000010 E1B030A1        MOVS             R3, R1, LSR #1
+   10 00000014 E3A0100A        MOV              R1, #10
+   11 00000018 E3E02009        MOV              R2, #-10
+   12 0000001C E1F030C1        MVNS             R3, R1, ASR #1
+   13 00000020 E1B040C2        MOVS             R4, R2, ASR #1
+   14 00000024 E1F02002        MVNS             R2,R2
+   15 00000028 E1B050E2        MOVS             R5, R2, ROR #1
+   16 0000002C E1B06062        MOVS             R6, R2, RRX
+   17 00000030 EAFFFFFE 
+                       STOP    B                STOP
+   18 00000034                 END
+Command Line: --debug --xref --apcs=interwork --depend=.\excercise1_3.d -o.\exc
+ercise1_3.o -IC:\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include --predefine="__E
+VAL SETA 1" --list=.\excercise1_3.lst Excercise1_3.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+RESET_HANDLER1_3 00000000
+
+Symbol: RESET_HANDLER1_3
+   Definitions
+      At line 3 in file Excercise1_3.s
+   Uses
+      At line 2 in file Excercise1_3.s
+Comment: RESET_HANDLER1_3 used once
+START 00000000
+
+Symbol: START
+   Definitions
+      At line 5 in file Excercise1_3.s
+   Uses
+      None
+Comment: START unused
+STOP 00000030
+
+Symbol: STOP
+   Definitions
+      At line 17 in file Excercise1_3.s
+   Uses
+      At line 17 in file Excercise1_3.s
+Comment: STOP used once
+exercise1_3 00000000
+
+Symbol: exercise1_3
+   Definitions
+      At line 1 in file Excercise1_3.s
+   Uses
+      None
+Comment: exercise1_3 unused
+4 symbols
+335 symbols in table

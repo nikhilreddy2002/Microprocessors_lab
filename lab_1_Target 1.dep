@@ -1,0 +1,4 @@
+Dependencies for Project 'lab_1', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Excercise1_2.s)(0x62026F2A)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include--list .\excercise1_2.lst --xref -o .\excercise1_2.o --depend .\excercise1_2.d)
+F (.\Excercise1_1.s)(0x62026EC8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include--list .\excercise1_1.lst --xref -o .\excercise1_1.o --depend .\excercise1_1.d)
+F (.\Excercise1_3.s)(0x620270F3)()

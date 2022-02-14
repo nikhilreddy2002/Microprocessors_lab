@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\excercise1_2.o"
+".\excercise1_1.o"
+".\excercise1_3.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x00000000 --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\lab_1.map" -o .\lab_1.axf
