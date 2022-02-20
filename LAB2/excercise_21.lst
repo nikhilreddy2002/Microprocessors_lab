@@ -1,0 +1,63 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             Excercise2_1, CODE, READONLY
+    2 00000000                 EXPORT           RESET_HANDLER2_1
+    3 00000000         RESET_HANDLER2_1
+    4 00000000         
+    5 00000000 E3E01000 
+                       START   MOV              R1, #4294967295
+    6 00000004 E3A02001        MOV              R2, #1
+    7 00000008 E0813002        ADD              R3, R1, R2
+    8 0000000C E0914002        ADDS             R4, R1, R2
+    9 00000010 E0A15002        ADC              R5, R1, R2
+   10 00000014 E3A020E7        MOV              R2, #231
+   11 00000018 EAFFFFFE 
+                       STOP    B                STOP
+   12 0000001C                 END
+Command Line: --debug --xref --apcs=interwork --depend=.\excercise_21.d -o.\exc
+ercise_21.o -IC:\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include --predefine="__E
+VAL SETA 1" --list=.\excercise_21.lst Excercise_21.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+Excercise2_1 00000000
+
+Symbol: Excercise2_1
+   Definitions
+      At line 1 in file Excercise_21.s
+   Uses
+      None
+Comment: Excercise2_1 unused
+RESET_HANDLER2_1 00000000
+
+Symbol: RESET_HANDLER2_1
+   Definitions
+      At line 3 in file Excercise_21.s
+   Uses
+      At line 2 in file Excercise_21.s
+Comment: RESET_HANDLER2_1 used once
+START 00000000
+
+Symbol: START
+   Definitions
+      At line 5 in file Excercise_21.s
+   Uses
+      None
+Comment: START unused
+STOP 00000018
+
+Symbol: STOP
+   Definitions
+      At line 11 in file Excercise_21.s
+   Uses
+      At line 11 in file Excercise_21.s
+Comment: STOP used once
+4 symbols
+335 symbols in table
