@@ -1,0 +1,79 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             cons, CODE, READONLY
+    2 00000000                 EXPORT           Reset_Handler
+    3 00000000         Reset_Handler
+    4 00000000 E3A00101 
+                       Start   MOV              R0, #0x40000000 ; 
+    5 00000004 E89007FE        LDMIA            R0, {R1-R10} ; 
+    6 00000008 E28110FF        ADD              R1, #0xFF   ;
+    7 0000000C E28220FF        ADD              R2, #0xFF   ;
+    8 00000010 E28330FF        ADD              R3, #0xFF   ;
+    9 00000014 E28440FF        ADD              R4, #0xFF   ;
+   10 00000018 E28550FF        ADD              R5, #0xFF   ;
+   11 0000001C E28660FF        ADD              R6, #0xFF   ;
+   12 00000020 E28770FF        ADD              R7, #0xFF   ;
+   13 00000024 E28880FF        ADD              R8, #0xFF   ;
+   14 00000028 E28990FF        ADD              R9, #0xFF   ;
+   15 0000002C E28AA0FF        ADD              R10, #0xFF  ;
+   16 00000030 E88007FE        STMIA            R0, {R1-R10} ;
+   17 00000034 EAFFFFFE 
+                       Stop    B                Stop
+   18 00000038         END
+   19 00000038         
+                       
+Command Line: --debug --xref --apcs=interwork --depend=.\exe1.d -o.\exe1.o -IC:
+\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include --predefine="__EVAL SETA 1" --li
+st=.\exe1.lst exe1.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+END 00000038
+
+Symbol: END
+   Definitions
+      At line 18 in file exe1.s
+   Uses
+      None
+Comment: END unused
+Reset_Handler 00000000
+
+Symbol: Reset_Handler
+   Definitions
+      At line 3 in file exe1.s
+   Uses
+      At line 2 in file exe1.s
+Comment: Reset_Handler used once
+Start 00000000
+
+Symbol: Start
+   Definitions
+      At line 4 in file exe1.s
+   Uses
+      None
+Comment: Start unused
+Stop 00000034
+
+Symbol: Stop
+   Definitions
+      At line 17 in file exe1.s
+   Uses
+      At line 17 in file exe1.s
+Comment: Stop used once
+cons 00000000
+
+Symbol: cons
+   Definitions
+      At line 1 in file exe1.s
+   Uses
+      None
+Comment: cons unused
+5 symbols
+336 symbols in table

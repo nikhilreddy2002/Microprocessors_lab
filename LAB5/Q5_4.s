@@ -32,7 +32,7 @@ loopdiv	;division to find quotient and remainder
 		MOV num,qt;
 		CMP num,#0
 		BNE loop;
-        STR acount,[numloc,#4];storing the reversed number
+        STR revnum,[numloc,#4];storing the reversed number
 Stop 	B 	Stop ; Stop program
 adrs	DCW  0x00004000
 		END

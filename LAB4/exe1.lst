@@ -1,0 +1,101 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000        0 
+                       fib     RN               0           ; stores current fi
+                                                            bonacci number
+    2 00000000        1 
+                       fir     RN               1
+    3 00000000        2 
+                       sec     RN               2
+    4 00000000        3 
+                       numloc  RN               3
+    5 00000000        4 
+                       num     RN               4
+    6 00000000        6 
+                       temp    RN               6
+    7 00000000                 AREA             fibonacci, CODE, READONLY
+    8 00000000                 EXPORT           Reset_Handler
+    9 00000000         Reset_Handler
+   10 00000000         Start
+   11 00000000 E3A01000        MOV              fir, #0
+   12 00000004 E3A02001        MOV              sec, #1
+   13 00000008 E59F301C        LDR              numloc,adrs
+   14 0000000C E5934000        LDR              num,[numloc]
+   15 00000010         
+   16 00000010         loop                                 ;calculating fibona
+                                                            cci sequence
+   17 00000010 E0810002        ADD              fib,fir,sec ;
+   18 00000014 E1A01002        MOV              fir,sec     ;
+   19 00000018 E1A02000        MOV              sec,fib     ;
+   20 0000001C E1500004        CMP              fib,num     ;
+   21 00000020 BAFFFFFA        BLT              loop
+   22 00000024 E5831004        STR              fir,[numloc,#4] ;storing the la
+                                                            st number less than
+                                                             the upper bound
+   23 00000028 EAFFFFFE 
+                       Stop    B                Stop        ; Stop program
+   24 0000002C 00 40   adrs    DCW              0x00004000
+   25 0000002E                 END
+Command Line: --debug --xref --apcs=interwork --depend=.\exe1.d -o.\exe1.o -IC:
+\Keil\ARM\RV31\INC -IC:\Keil\ARM\CMSIS\Include --predefine="__EVAL SETA 1" --li
+st=.\exe1.lst exe1.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+Reset_Handler 00000000
+
+Symbol: Reset_Handler
+   Definitions
+      At line 9 in file exe1.s
+   Uses
+      At line 8 in file exe1.s
+Comment: Reset_Handler used once
+Start 00000000
+
+Symbol: Start
+   Definitions
+      At line 10 in file exe1.s
+   Uses
+      None
+Comment: Start unused
+Stop 00000028
+
+Symbol: Stop
+   Definitions
+      At line 23 in file exe1.s
+   Uses
+      At line 23 in file exe1.s
+Comment: Stop used once
+adrs 0000002C
+
+Symbol: adrs
+   Definitions
+      At line 24 in file exe1.s
+   Uses
+      At line 13 in file exe1.s
+Comment: adrs used once
+fibonacci 00000000
+
+Symbol: fibonacci
+   Definitions
+      At line 7 in file exe1.s
+   Uses
+      None
+Comment: fibonacci unused
+loop 00000010
+
+Symbol: loop
+   Definitions
+      At line 16 in file exe1.s
+   Uses
+      At line 21 in file exe1.s
+Comment: loop used once
+6 symbols
+343 symbols in table
