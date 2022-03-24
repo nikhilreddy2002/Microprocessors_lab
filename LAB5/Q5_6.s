@@ -12,14 +12,15 @@ Start
 		MOV sec, #1
 		LDR numloc,adrs
 		LDR num,[numloc]
+		STR r11,[numloc,#4]!;storing 0 (the first element)
 		
 loop	;calculating fibonacci sequence
         ADD fib,fir,sec;
 		MOV fir,sec;
 		MOV sec,fib;
 		CMP fib,num;
+		STR fir,[numloc,#4]!;storing the number
 		BLT loop
-		STR fir,[numloc,#4];storing the last number less than the upper bound
 Stop 	B 	Stop ; Stop program
 adrs 		DCW  0x00004000
 		END 

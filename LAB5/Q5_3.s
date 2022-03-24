@@ -7,7 +7,7 @@ rem10	RN 6
 qt		RN 7
 tenr 	RN 8
 ;ASSUMING DECIMAL NUMBERS
-		AREA rev_num, CODE, READONLY
+		AREA num_digit, CODE, READONLY
 		EXPORT Reset_Handler
 Reset_Handler
 Start 	

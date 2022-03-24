@@ -1,0 +1,415 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\NITK files\Sem 4\EC210\LAB4\lab4.uvproj
+Project File Date:  03/15/2022
+
+<h2>Output:</h2>
+assembling exe1.s...
+"exe1.s" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling exe1.s...
+linking...
+Program Size: Code=40 RO-data=0 RW-data=0 ZI-data=0  
+".\lab4.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(28): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+linking...
+Program Size: Code=60 RO-data=0 RW-data=0 ZI-data=0  
+".\lab4.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(11): error: A1355U: A Label was found which was in no AREA
+".\lab4.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(25): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(25): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(25): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(25): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(25): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(25): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(25): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(25): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+linking...
+Program Size: Code=68 RO-data=0 RW-data=0 ZI-data=0  
+".\lab4.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=68 RO-data=0 RW-data=0 ZI-data=0  
+".\lab4.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=68 RO-data=0 RW-data=0 ZI-data=0  
+".\lab4.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling exe1.s...
+linking...
+Program Size: Code=68 RO-data=0 RW-data=0 ZI-data=0  
+".\lab4.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling exe1.s...
+linking...
+Program Size: Code=68 RO-data=0 RW-data=0 ZI-data=0  
+".\lab4.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(26): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(28): warning: A1865W: '#' not seen before constant expression
+exe1.s(31): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(32): warning: A1865W: '#' not seen before constant expression
+".\lab4.axf" - 2 Errors, 2 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+linking...
+Program Size: Code=88 RO-data=0 RW-data=0 ZI-data=0  
+".\lab4.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=88 RO-data=0 RW-data=0 ZI-data=0  
+".\lab4.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=88 RO-data=0 RW-data=0 ZI-data=0  
+".\lab4.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=88 RO-data=0 RW-data=0 ZI-data=0  
+".\lab4.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=88 RO-data=0 RW-data=0 ZI-data=0  
+".\lab4.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=88 RO-data=0 RW-data=0 ZI-data=0  
+".\lab4.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling exe1.s...
+linking...
+Program Size: Code=88 RO-data=0 RW-data=0 ZI-data=0  
+".\lab4.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(1): error: A1163E: Unknown opcode EQ , expecting opcode or Macro
+exe1.s(20): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(21): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(22): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(23): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(34): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(35): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(36): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(37): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 9 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(1): error: A1163E: Unknown opcode EQ , expecting opcode or Macro
+exe1.s(22): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(23): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(34): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(35): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(36): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(37): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 7 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(1): error: A1163E: Unknown opcode EQ , expecting opcode or Macro
+exe1.s(22): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(23): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(34): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(35): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(36): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(37): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 7 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(1): error: A1163E: Unknown opcode EQ , expecting opcode or Macro
+exe1.s(22): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(23): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(34): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(35): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(36): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(37): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 7 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(1): error: A1163E: Unknown opcode EQ , expecting opcode or Macro
+exe1.s(22): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(23): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(34): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(35): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(36): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(37): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 7 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(1): error: A1163E: Unknown opcode EQ , expecting opcode or Macro
+exe1.s(22): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(23): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(34): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(35): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(36): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(37): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 7 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(1): error: A1163E: Unknown opcode EQ , expecting opcode or Macro
+exe1.s(22): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(23): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(34): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(35): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(36): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(37): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 7 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(1): error: A1163E: Unknown opcode EQ , expecting opcode or Macro
+exe1.s(22): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(23): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(34): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(35): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(36): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(37): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 7 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(20): error: A1114E: Expected register relative expression
+exe1.s(21): error: A1114E: Expected register relative expression
+exe1.s(34): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(35): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(36): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(37): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 6 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(19): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(20): error: A1114E: Expected register relative expression
+exe1.s(21): error: A1114E: Expected register relative expression
+exe1.s(34): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(35): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(36): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(37): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 7 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(19): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(20): error: A1114E: Expected register relative expression
+exe1.s(21): error: A1114E: Expected register relative expression
+exe1.s(34): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(35): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(36): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(37): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 7 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(19): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(20): error: A1114E: Expected register relative expression
+exe1.s(21): error: A1114E: Expected register relative expression
+exe1.s(34): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(35): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(36): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(37): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 7 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(19): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(20): error: A1114E: Expected register relative expression
+exe1.s(21): error: A1114E: Expected register relative expression
+exe1.s(34): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(35): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(36): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(37): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 7 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(19): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(20): error: A1114E: Expected register relative expression
+exe1.s(21): error: A1114E: Expected register relative expression
+exe1.s(34): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(35): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(36): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(37): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 7 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(19): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(20): error: A1114E: Expected register relative expression
+exe1.s(21): error: A1114E: Expected register relative expression
+exe1.s(34): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(35): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(36): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(37): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 7 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(19): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(34): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(35): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(36): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(37): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 5 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(19): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(34): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(35): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(36): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(37): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 5 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(19): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(34): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(35): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(36): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(37): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 5 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(19): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(34): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(35): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(36): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(37): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 5 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(19): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(34): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(35): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(36): error: A1647E: Bad register name symbol, expected Integer register
+exe1.s(37): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 5 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(25): error: A1647E: Bad register name symbol, expected Integer register
+".\lab4.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+linking...
+Program Size: Code=76 RO-data=0 RW-data=0 ZI-data=0  
+".\lab4.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(19): warning: A1865W: '#' not seen before constant expression
+exe1.s(19): error: A1172E: Bad rotator -2147483648, must be even and between 0 and 30
+exe1.s(20): warning: A1865W: '#' not seen before constant expression
+exe1.s(20): error: A1172E: Bad rotator -2147483648, must be even and between 0 and 30
+exe1.s(36): error: A1163E: Unknown opcode UMUll , expecting opcode or Macro
+".\lab4.axf" - 3 Errors, 2 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+exe1.s(36): error: A1163E: Unknown opcode UMUll , expecting opcode or Macro
+".\lab4.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling exe1.s...
+linking...
+Program Size: Code=88 RO-data=0 RW-data=0 ZI-data=0  
+".\lab4.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling exe1.s...
+linking...
+Program Size: Code=88 RO-data=0 RW-data=0 ZI-data=0  
+".\lab4.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling exe1.s...
+linking...
+Program Size: Code=100 RO-data=0 RW-data=0 ZI-data=0  
+".\lab4.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling exe1.s...
+linking...
+Program Size: Code=108 RO-data=0 RW-data=0 ZI-data=0  
+".\lab4.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling exe1.s...
+linking...
+Program Size: Code=88 RO-data=0 RW-data=0 ZI-data=0  
+".\lab4.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling exe1.s...
+linking...
+Program Size: Code=108 RO-data=0 RW-data=0 ZI-data=0  
+".\lab4.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling exe1.s...
+linking...
+Program Size: Code=108 RO-data=0 RW-data=0 ZI-data=0  
+".\lab4.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling exe1.s...
+linking...
+Program Size: Code=108 RO-data=0 RW-data=0 ZI-data=0  
+".\lab4.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=108 RO-data=0 RW-data=0 ZI-data=0  
+".\lab4.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=108 RO-data=0 RW-data=0 ZI-data=0  
+".\lab4.axf" - 0 Errors, 0 Warning(s).
